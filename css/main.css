@@ -1,0 +1,116 @@
+/* Website harryvdtol */
+/* CSS/HTML door HvdT */
+html			{  width: 100%; height: 100%; padding: 0; margin: 0; }
+body			{ width: 100%; height: 100%; padding: 0; margin: 0; }
+body.regular		{ background: url(../images/backgr_body_bioszaal_klein.jpg) no-repeat center top #000; }
+body.homepage		{ background: url(../images/repeater.png) repeat; background-position: center 45px; background-color: #000; }
+a{ color: #000; }
+
+/* Titel en headings */
+
+h1.boxtitle { font-family: tahoma, arial, verdana; font-weight: normal; padding: 0 0 10px 0; margin: 0px 10px 0px 0px; font-size: 17px; color: #0e20ab; text-transform: uppercase; background: url(../images/geel_line.png) bottom left repeat-x; } 
+
+h1.bold			{ font-family: tahoma, arial, verdana; font-weight: normal; padding: 0 0 10px 0; margin: 0px 10px 0px 0px; font-size: 17px; color: #0e20ab; text-transform: uppercase; text-align: center; } 
+p.boxtitle		{ font-family: tahoma, arial, verdana; font-weight: normal; padding: 0 0 10px 0; margin: 0px 10px 0px 0px; font-size: 12px; text-align: left; line-height: 12px; } 
+
+
+h1.normal 		{ background: url("../images/backgr_white_dots.png") repeat-x scroll center bottom transparent; font-weight: normal;   color: #BA0619;    font-family: arial,verdana;  font-size: 45px;   margin: 0 0 10px;    padding: 0 0 6px;}
+h1.title 		{    background: url("../images/backgr_grey_dots.png") repeat-x scroll center bottom transparent; font-weight: normal;    color: #000000;    font-family: arial,verdana;    font-size: 28px;    margin: 0;  padding: 0 0 10px;}
+
+h2.title 		{ color: #000000; font-weight: normal;   font-family: arial,verdana;    font-size: 28px;    margin: 0;    padding: 0;}
+h2.title_footer 	{  color: #C9C9C9;	 font-weight: normal;	  font-family: arial,verdana;  font-size: 14px;   margin: 8px 0;  padding: 0;  font-weight: normal;		  text-transform: uppercase;	  }
+h2.redmain		{ background: url("../images/backgr_white_dots.png") repeat-x scroll center bottom transparent; font-weight: normal;   color: #BA0619;    font-family: arial,verdana;    font-size: 45px; margin: 0 0 10px;    padding: 0 0 6px; }
+
+
+.clear			{ clear: both; }
+
+
+/* Container */
+
+#container			{ width: 780px; position: relative; margin: 0 auto;   overflow: hidden; font-family: arial; font-size: 12px; }
+
+
+#container .top_regel		{ width: 100%; height: 72px; position: relative; z-index: 999; }
+#container .top_regel .right	{ width: 570px; height: 72px; float: right; } 
+
+#container .navig			{ width: 780px; height: 62px; position: relative; margin-top: 34px; background: url(../images/balk_nav.jpg) no-repeat;  }
+#container .navig ul			{ list-style: none; padding: 34px 0 5px 10px; margin: 0; font-family: arial, verdana; }
+#container .navig ul li			{ display: inline; text-transform: uppercase; color: #fff; font-size: 17px; padding: 20px 10px 11px 10px; }
+#container .think			{ width: 780px; height: 62px; position: relative; margin-top: 34px; margin-left: 250px; background: url(../movies/atp.gif) no-repeat; }
+#container .thinkl			{ height: 62px; width: 72px; position:relative; margin-left: 700px; margin-top: 1034px; background: url(../images/atps.jpg) no-repeat;  }
+
+#container .cameraman			{ width: 780px; height: 160px; position: relative; margin-top: 10x; margin-left: 60px; background: url(../movies/cameraman.gif) no-repeat; }
+
+#container .content .schaduw_bl		{ width: 142px; height: 113px; position: absolute; top: 0; left: 0; background: url(../images/backgr_schaduw_bl.png) no-repeat; }
+#container .content .schaduw_br		{ width: 142px; height: 113px; position: absolute; top: 0; right: 0; background: url(../images/backgr_schaduw_br.png) no-repeat; }
+#container .content .schaduw_ar		{ width: 142px; height: 113px; position: absolute; bottom: 0; right: 0; background: url(../images/backgr_schaduw_ar.png) no-repeat; }
+#container .content .schaduw_al		{ width: 142px; height: 113px; position: absolute; bottom: 0; left: 0; background: url(../images/backgr_schaduw_al.png) no-repeat; }
+
+#container .content				{ width: 780px; position: relative; background: #fff; overflow: hidden; padding: 21px 10px; }
+#container .content .box			{ position: relative; overflow: hidden; padding: 12px; margin: 0 0 20px 0; background:#f4f4f4; }
+#container .content .moviebox			{ width: 100%; position: relative; font-family: arial, verdana; }
+#container .content .box .moviebox a		{ text-decoration: none; display: block; color: #303030; }
+
+#container .content .box .filmlist		{ width: 100%; position: relative; }
+#container .content .box .filmlist p		{ font-family: tahoma, arial, verdana; font-weight: normal; padding: 0 0 10px 0; margin: 0px 10px 0px 0px; font-size: 12px; text-align: left; line-height: 12px; } 
+#container .content .box .filmlist ul		{ padding: 0; margin: 0; list-style: none; }
+#container .con2tent .box .filmlist ul li	{ height: 23px; background: url(../images/backgr_movie_top10.png) -3px 0 no-repeat; line-height: 23px; margin: 0;}
+#container .content .box .filmlist ul li a	{ padding-left: 5px; text-decoration: none; color: #000; display: block; height: 20px; overflow: hidden;}
+
+#container .content .box .koplist		{ width: 100%; position: relative; }
+#container .content .box .koplist p		{ line-height: 18px; margin: 0px 30px 0px 0px;  }
+#container .content .box .koplist .table	{ margin: 12px 0 12px 0; }
+
+#container .content .moreinfo			{ width: 100%; position: relative;  }
+#container .content .moreinfo p 		{ line-height: 18px;  }
+#container .content .moreinfo img 		{ margin: 0 0 0 8px;}
+
+#container .contentholder a			{   }
+#container .contentholder a.coffetime:hover	{ background: url('../images/coffeetime.jpg') no-repeat; height: 72px; width: 72px;  }
+#container .contentholder a.coffeetime		{ background: url('../images/coffeetime.jpg') no-repeat; height: 72px; width: 72px;  display: block; padding: 5px ;}
+#container .contentholder a.kleye:hover		{ background: url('../images/kleye.jpg') no-repeat; height: 72px; width: 72px;  }
+#container .contentholder a.kleye		{ background: url('../images/kleye.jpg') no-repeat; height: 72px; width: 72px;  display: block; padding: 5px ;}
+#container .contentholder a.lopen:hover		{ background: url('../images/lopen.png') no-repeat; height: 72px; width: 72px;  }
+#container .contentholder a.lopen		{ background: url('../images/lopen.png') no-repeat; height: 72px; width: 72px;  display: block; padding: 5px ;}
+#container .contentholder a.wolkenn:hover		{ background: url('../images/wolken.jpg') no-repeat; height: 72px; width: 72px;  }
+#container .contentholder a.wolken		{ background: url('../images/wolken.jpg') no-repeat; height: 72px; width: 72px;  display: block; padding: 5px ;}
+#container .contentholder a.lego:hover		{ background: url('../images/lego.jpg') no-repeat; height: 72px; width: 72px;  }
+#container .contentholder a.lego		{ background: url('../images/lego.jpg') no-repeat; height: 72px; width: 72px;  display: block; padding: 5px ;}
+#container .contentholder a.twitter		{ background: url('../images/twitter.jpg') no-repeat; background-position: center; height: 72px; width: 72px; display: block;}
+#container .contentholder a.twitter:hover	{ background: url('../images/twitter.jpg') no-repeat; height: 72px; width: 72px; }
+
+
+#container .moviepreview			{ width: 780px; height: 217px; position: relative; margin-right: auto; margin-left: auto; margin-top: 45px; }
+
+/* Footer  */
+
+#container .footer				{ width: 740px; min-height: 30px; position: relative; padding: 20px 10px; background: no-repeat #1197c8; 10px 10px;  overflow: hidden; }
+#container .footer .footer_border		{ width: 740px; height: 2px; position: relative; background: url(../images/backgr_white_dots.png) repeat-x; }
+#container .footer .footer_content		{ width: 740px; position: relative; }
+#container .footer .lefttxt			{ float: left; margin: 10px 12px 0 0; padding: 0; color: #c9c9c9; font-size: 11px; }
+#container .footer .righttxt			{ float: right; margin: 15px 0 0 0; padding: 0 12px 0 0; color: #c9c9c9; font-size: 11px; background: url(../images/icon_arrow_up.png) no-repeat right; }
+#container .footer a				{ text-decoration: none; color: #c9c9c9; }
+#container .footer a:hover			{ text-decoration: none; color: #fff; }
+
+/* //////// MISC ///////////////////////////////// */
+
+.contentholder			{ width: 100%; }
+table.contentholder .padding 	{ padding: 0 10px 0 10px;}
+
+
+.padding.small 		{ width: 300px; overflow: hidden;}
+.padding.medium 	{ width: 400px; overflow: hidden;}
+.padding.large	 	{ width: 740px; overflow: hidden;}
+img.floatleft		{ float: left	; margin: 4px; } 
+
+.moviebox a 					{ margin: 5px;}
+
+
+
+#container .content .tabs			{ width: 100%; height: 24px; position: absolute; left: 20px; top: 93px; z-index: 3; }
+#container .content .tabs .tab			{ height: 24px; font-size: 11px; color: #000; float: left; padding: 0 6px 0 6px; background: url(../images/backgr_tab.jpg) #fff repeat-x; border-left: 1px solid #c4c4c4; border-top: 1px solid #c4c4c4; border-right: 1px solid #c4c4c4; line-height: 23px; }
+#container .content .tabs .tabinactive		{ height: 23px; font-size: 11px; color: #fff; float: left; padding: 0 6px 0 6px; margin: 1px 0 0 3px; background: url(../images/backgr_tab_inactive.jpg) repeat-x; line-height: 23px; }
+#container .content .tabs a			{ text-decoration: none; color: #fff; }
+
+
+.paged-element-hidden.animated{ animation-name: none !important; }
